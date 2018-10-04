@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConStrCC", "ConStrCC\ConStrCC.csproj", "{A2888194-9752-4604-89BE-117DB6DA401F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionCC", "ConnectionCC\ConnectionCC.csproj", "{4F761074-B857-4A39-B64B-A8D13925E299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonCC", "CommonCC\CommonCC.csproj", "{3924CAEA-BEEC-4133-9AF7-9D4541494331}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2888194-9752-4604-89BE-117DB6DA401F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2888194-9752-4604-89BE-117DB6DA401F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2888194-9752-4604-89BE-117DB6DA401F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2888194-9752-4604-89BE-117DB6DA401F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F761074-B857-4A39-B64B-A8D13925E299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F761074-B857-4A39-B64B-A8D13925E299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F761074-B857-4A39-B64B-A8D13925E299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F761074-B857-4A39-B64B-A8D13925E299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3924CAEA-BEEC-4133-9AF7-9D4541494331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3924CAEA-BEEC-4133-9AF7-9D4541494331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3924CAEA-BEEC-4133-9AF7-9D4541494331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3924CAEA-BEEC-4133-9AF7-9D4541494331}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
