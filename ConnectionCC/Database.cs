@@ -11,7 +11,7 @@ namespace ConnectionCC
     public class Database : IDisposable
     {
         /// <summary>
-        /// Database type enumeration CC
+        /// Database type enumeration CC 
         /// </summary>
         public enum DatabaseType
         {
