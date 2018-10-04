@@ -21,7 +21,7 @@ namespace ConStrCC
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //textBox3.Text = StringCipherCC.Encrypt(textBox1.Text, textBox2.Text);
+            textBox3.Text = CommonCC.StringCipherCC.Encrypt(textBox1.Text, textBox2.Text);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -39,6 +39,7 @@ namespace ConStrCC
                 {
                     //db.ExecuteText("select * from ServiceRequestStatus(nolock)");
                     dt = db.ExecuteTextRetrieveDataTable("select * from ServiceRequestStatus(nolock)");
+                    
                 }
 
                     MessageBox.Show(msg);

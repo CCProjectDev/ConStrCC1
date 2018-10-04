@@ -81,6 +81,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CommonCC\CommonCC.csproj">
+      <Project>{3924caea-beec-4133-9af7-9d4541494331}</Project>
+      <Name>CommonCC</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ConnectionCC\ConnectionCC.csproj">
       <Project>{4f761074-b857-4a39-b64b-a8d13925e299}</Project>
       <Name>ConnectionCC</Name>
